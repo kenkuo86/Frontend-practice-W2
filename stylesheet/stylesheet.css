@@ -1,6 +1,7 @@
 body, html{
 	padding: 0;
 	margin: 0;
+	font-family: sans-serif;
 }
 div{
 	position: relative;
@@ -79,4 +80,13 @@ h1{
 }
 .viewdtl:hover{
 	background-color: #555;
+}
+
+@media (max-width: 426px) {
+	.block-sm{
+		width: 100%;
+	}
+	.learnmore-sm{
+		width: 50%;
+	}
 }
