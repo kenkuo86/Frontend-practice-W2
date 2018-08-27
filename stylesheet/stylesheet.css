@@ -12,6 +12,7 @@ div{
 .navbar{
 	background-color: #444;
 	color: white;
+        /*這邊用百分比寫是為了符合RWD，在裝置轉換的時候就不用各別調整了。 	 */
 	padding-top: 1%;
 	padding-bottom: 1%;
 	padding-left: 8px;
